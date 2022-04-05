@@ -22,3 +22,5 @@ Transaction = input("Select Transaction: ")
 if Transaction == "1":
    print("{} + {} = {}".format(a,b,a+b)) 
    
+if Transaction == "2":
+    print("{} / {} = {}".format(a,b,a/b))
