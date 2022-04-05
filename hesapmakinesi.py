@@ -23,4 +23,7 @@ if Transaction == "1":
    print("{} + {} = {}".format(a,b,a+b)) 
    
 if Transaction == "2":
-    print("{} / {} = {}".format(a,b,a/b))
+    try:    
+        print("{} / {} = {}".format(a,b,a/b))
+    except ZeroDivisionError:
+        print("Sayı 0'a bölünemez.")
